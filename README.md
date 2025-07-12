@@ -10,7 +10,7 @@ uv add uvicorn --extra standard
 
 ## Run dev
 ```
-uv run uvicorn main:app --reload
+uv run uvicorn app.main:app --reload
 ```
 
 
