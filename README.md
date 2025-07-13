@@ -5,7 +5,9 @@
 uv init
 uv add fastapi
 uv add uvicorn --extra standard
+uv add langchain-chroma langchain-openai langchain
 
+uv sync
 ```
 
 ## Run dev
